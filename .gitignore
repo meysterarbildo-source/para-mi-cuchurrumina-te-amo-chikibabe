@@ -1,0 +1,14 @@
+# Dependencias y archivos locales
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Sistemas operativos y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log

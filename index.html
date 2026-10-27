@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1f1426">
+  <title>Canciones que te dedico · Ariana y Meyster</title>
+  <meta name="description" content="Una lista de canciones que me hacen pensar en ti.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500;1,600&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="hero">
+    <p class="hero__names">Ariana &amp; Meyster</p>
+    <h1 class="hero__title">Lista de canciones que te dedico porque cuando las escucho pienso en ti</h1>
+
+    <section class="counter" aria-label="Tiempo juntos desde el 8 de julio de 2026">
+      <p class="counter__intro">Desde el 8 de julio de 2026 a las 16:12 han pasado</p>
+      <div class="counter__grid" role="timer" aria-live="off">
+        <div class="unit"><span class="unit__num" id="c-dias">0</span><span class="unit__label">días</span></div>
+        <div class="unit"><span class="unit__num" id="c-horas">00</span><span class="unit__label">horas</span></div>
+        <div class="unit"><span class="unit__num" id="c-minutos">00</span><span class="unit__label">minutos</span></div>
+        <div class="unit"><span class="unit__num" id="c-segundos">00</span><span class="unit__label">segundos</span></div>
+      </div>
+    </section>
+
+    <a class="btn" href="subir.html">Subir recuerdos</a>
+    <div class="pup" aria-hidden="true"></div>
+  </header>
+
+  <main>
+    <section class="section" id="historia">
+      <h2>Donde todo comenzó</h2>
+      <p class="story">Hay veces en las que no sabes que el amor de tu vida se encuentra en el mismo lugar que tú. Y así es como no supe hasta que empezamos a conocernos. Y ahora no puedo vivir sin ti.</p>
+      <p class="story__sign">Con amor, Meyster</p>
+    </section>
+
+    <section class="section" id="canciones">
+      <h2>Las canciones</h2>
+      <p class="section__lead">Dale play a cada una. Todas me llevan a ti.</p>
+      <div class="songs" id="songs"></div>
+    </section>
+
+    <section class="section" id="galeria">
+      <h2>Nuestros recuerdos</h2>
+      <p class="section__lead">Fotos y videos de los momentos que quiero guardar.</p>
+      <div class="gallery" id="gallery"></div>
+      <p class="empty" id="gallery-empty" hidden>
+        Aún no hay recuerdos publicados.
+      </p>
+    </section>
+
+    <section class="section" id="mensajes">
+      <h2>Mensajitos para ti</h2>
+      <div class="notes" id="notes"></div>
+    </section>
+    <section class="section">
+      <h2>Gatitos para ti</h2>
+      <p class="lead">Tócalos y mira qué hacen.</p>
+      <div class="kittens" id="kittens"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="pup" aria-hidden="true"></div>
+    <p class="footer__big">Te elegiría una y otra vez.</p>
+    <p>Meyster ♡ Ariana</p>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/almacen.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/perrito.js"></script>
+</body>
+</html>

@@ -27,7 +27,7 @@
       </div>
     </section>
 
-    <a class="btn" href="subir.html">Subir recuerdos</a>
+    <a class="btn" href="#galeria">Ver nuestros recuerdos</a>
     <div class="pup" aria-hidden="true"></div>
   </header>
 
@@ -47,10 +47,7 @@
     <section class="section" id="galeria">
       <h2>Nuestros recuerdos</h2>
       <p class="section__lead">Fotos y videos de los momentos que quiero guardar.</p>
-      <div class="gallery" id="gallery"></div>
-      <p class="empty" id="gallery-empty" hidden>
-        Aún no hay recuerdos publicados.
-      </p>
+      <div id="gallery"></div>
     </section>
 
     <section class="section" id="mensajes">
@@ -70,8 +67,9 @@
     <p>Meyster ♡ Ariana</p>
   </footer>
 
+  <dialog id="lightbox" aria-label="Foto ampliada"><img id="lightbox-img" alt=""></dialog>
+
   <script src="js/config.js"></script>
-  <script src="js/almacen.js"></script>
   <script src="js/app.js"></script>
   <script src="js/perrito.js"></script>
 </body>
